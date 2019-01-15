@@ -39,6 +39,15 @@ S-1-15-2-2 = ALL RESTRICTED APPLICATION PACKAGES = LPAC
 (F) gives Full access.
 
 
+## Identifying LPAC Processes
+
+PowerShell users can utilize James Forshaw's NtObjectManager (https://www.powershellgallery.com/packages/NtObjectManager/) excellent tool to identify LPAC. The Get-NtProcessMitigations Cmdlet will differentiate between regular AppContainer and LPAC (Less Privileged AppContainer) in the output.
+
+Process Hacker (latest Nightly builds) can identify LPAC as well. On the Token tab, go to Advanced to bring up the Token Properties and go to the Attributes tab. LPAC can be identified with the WIN://NOALLAPPPKG security attribute.
+
+Also, James Forshaw's TokenViewer program which is part of Google's sandbox-attacksurface-analysis-tools (https://github.com/googleprojectzero/sandbox-attacksurface-analysis-tools) can also idenify LPAC via the WIN://NOALLAPPPKG security attribute and is also fantastic with regard to viewing Capabilities and such.
+
+
 (more details to update later)
 
 
