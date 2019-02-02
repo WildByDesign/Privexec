@@ -3,7 +3,7 @@
 
 
 ## Screenshot:
-![](https://raw.githubusercontent.com/WildByDesign/Privexec/master/LPAC%20Launcher.png)
+![](https://raw.githubusercontent.com/WildByDesign/Privexec/master/AppContainer%20Launcher.png)
 
 
 ## Details:
