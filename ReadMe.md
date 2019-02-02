@@ -6,6 +6,29 @@
 ![](https://raw.githubusercontent.com/WildByDesign/Privexec/master/AppContainer%20Launcher.png)
 
 
+## Release Details:
+
+Second release. This is a fork of Privexec aimed at narrowing down the scope to just AppContainer and LPAC with some minor GUI enhancements.
+
+Changes since last release:
+
+- Regular AppContainer is default (therefore 2 choices for AppContainer type now)
+- LPAC (Less Privileged AppContainer can be enabled via checkbox)
+- AppxManifest button to import/parse Capabilities from AppxManifest files
+- Allow changing AppContainer Name field
+- Unique SIDs based upon AppContainer Name
+- File, Folder and Registry ACL permissions (may require Admin)
+- Process Startup Directory (can be empty)
+- Output box shows launched process' AppContainer SID, AppContainer Folder, Name, etc.
+
+**Source code changes are included within the 7z archive.**
+
+
+All credit goes to Force Charlie (https://github.com/fcharlie)
+
+Original Privexec: https://github.com/M2Team/Privexec
+
+
 ## LPAC (Less Privileged AppContainer) Details:
 
 ## Important Capabilities for LPAC (minimum)
