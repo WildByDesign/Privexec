@@ -20,6 +20,7 @@ Changes since last release:
 - File, Folder and Registry ACL permissions (may require Admin)
 - Process Startup Directory (can be empty)
 - Output box shows launched process' AppContainer SID, AppContainer Folder, Name, etc.
+- Basic theme support; Change Color Panel selection in Sysmenu
 
 **Source code changes are included within the 7z archive.**
 
