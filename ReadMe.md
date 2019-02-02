@@ -1,12 +1,12 @@
-# LPAC Sandbox Launcher
-## Less Privileged AppContainer Sandbox Launcher
+# AppContainer Launcher
+## AppContainer and LPAC (Less Privileged AppContainer) Launcher with Capabilities
 
 
 ## Screenshot:
 ![](https://raw.githubusercontent.com/WildByDesign/Privexec/master/AppContainer%20Launcher.png)
 
 
-## Details:
+## LPAC (Less Privileged AppContainer) Details:
 
 ## Important Capabilities for LPAC (minimum)
 
